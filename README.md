@@ -1,12 +1,12 @@
-# Using Convolutional Neural Netowrks and Data Augmentation on CIFAR 10
+# Using Convolutional Neural Netowrks and Data Augmentation on CIFAR-10
 
 ## Background
 
-As part of a data science bootcamp, we (Abhijeet Kamble and Anmol Srivats) decided to do a project where we used deep learning via Convolutional Neural Networks (CNNs), to classify images in the CIFAR 10 dataset. In the description of the dataset, it said that a paper got to 82% accuracy without data augmentation, and 89% with data augmentation, so we were chasing these two targets. 
+As part of a data science bootcamp, we (Abhijeet Kamble and Anmol Srivats) decided to do a project where we used deep learning via Convolutional Neural Networks (CNNs), to classify images in the CIFAR-10 dataset. In the description of the dataset, it said that a paper got to 82% accuracy without data augmentation, and 89% with data augmentation, so we were chasing these two targets. 
 
 ## Data
 
-The CIFAR 10 dataset contains 60,000 32x32 images in 10 different categories. The training set contains 50,000 images, and the testing set contains 10,000. Both the training and testing set have an equal number of images in each of the categories. We first split the training set into a training and validation set, to test our model, but run our final model using the full training set, and verifying it on the testing set. 
+The CIFAR-10 dataset contains 60,000 32x32 images in 10 different categories. The training set contains 50,000 images, and the testing set contains 10,000. Both the training and testing set have an equal number of images in each of the categories. We first split the training set into a training and validation set, to test our model, but run our final model using the full training set, and verifying it on the testing set. 
 
 ## Inital Model Architecture
 
