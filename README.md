@@ -20,7 +20,7 @@ We read that the model tends to overfit to certain orientations in the training 
 
 We used our earlier architecture on the augmented dataset, but were still at only around 83% accuracy after 100 epochs. This was not an improvement form our earlier model. However, when we passed the original training data through our model- the accuracy immediately jumped to 85% after one epoch. This suggests that after learning the general rules of how to identify certain images, the model received an immediate accuracy boost when seeing 'clean' data. 
 
-Furthermore, we realised that regularisation is not required in this architecture, as the random shifts/rotations provide a regularising effect. We then made our model do 10 epochs on augmented data - 1 epoch on the original data, and repeated this process 20 times. This gave us a final accuracy of 87.5%, only 1.5% worse than the paper. 1
+Furthermore, we realised that regularisation is not required in this architecture, as the random shifts/rotations provide a regularising effect. We then made our model do 10 epochs on augmented data - 1 epoch on the original data, and repeated this process 20 times. This gave us a final accuracy of 87.5%, only 1.5% worse than the paper. 2
 
 
 
