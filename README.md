@@ -24,4 +24,3 @@ Furthermore, we realised that regularisation is not required in this architectur
 
 1
 
-
