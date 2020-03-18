@@ -22,4 +22,4 @@ We used our earlier architecture on the augmented dataset, but were still at onl
 
 Furthermore, we realised that regularisation is not required in this architecture, as the random shifts/rotations provide a regularising effect. We then made our model do 10 epochs on augmented data - 1 epoch on the original data, and repeated this process 20 times. This gave us a final accuracy of 87.5%, only 1.5% worse than the paper. 
 
-1
+
